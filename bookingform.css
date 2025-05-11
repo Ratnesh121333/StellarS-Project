@@ -1,0 +1,97 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  background: #000046;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #1CB5E0, #000046);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #1CB5E0, #000046);
+  background-repeat: no-repeat;
+}
+
+#shipment-form {
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+}
+
+#shipment-form h1 {
+  text-align: center;
+  margin-bottom: 80px;
+  font-weight: 700;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+#shipment-form section {
+  margin-bottom: 30px;
+}
+
+#shipment-form h3 {
+  margin-top: 0;
+  font-weight: 600;
+  color: #7f8c8d;
+}
+
+#shipment-form .form-group {
+  margin-bottom: 20px;
+}
+
+#shipment-form label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 600;
+  color: #2c3e50;
+}
+
+#shipment-form .horizontal-group {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+#shipment-form .horizontal-group .form-group {
+  flex: 1;
+}
+
+#shipment-form input, #shipment-form select, #shipment-form textarea {
+  width: 100%;
+  height: 45px;
+  padding: 2px;
+  margin-bottom: 20px;
+  border: 1px solid #ccd1d9;
+  border-radius: 8px;
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+#shipment-form input:focus, #shipment-form select:focus, #shipment-form textarea:focus {
+  border-color: #337ab7;
+  box-shadow: 0 0 5px rgba(51, 122, 183, 0.5);
+}
+
+#shipment-form textarea {
+  height: 120px;
+}
+
+#shipment-form button[type="submit"] {
+  width: 100%;
+  height: 50px;
+  padding: 12px;
+  background-color: #337ab7;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  text-decoration: none;
+}
+
+#shipment-form button[type="submit"]:hover {
+  background-color: blue;
+  transform: scale(1.05);
+}
